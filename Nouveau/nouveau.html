@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mamaa Mia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Mamaa Mia Restaurant</h1>      
+    <p>Maison familiale depuis 1976</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">La Carte</a></li>
+        <li><a href="#">Restaurant</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Réservation</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Mon Compte</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Panier</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading"> <center>Mozzarella Di Bufala</center></div>
+        <div class="panel-body"><img src="mozza.png" class="img-responsive" style="width:100%" alt="mozza.png"></div>
+        <div class="panel-footer"> <center> 11,50€ </center></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading"><center>Pizza Regina</center></div>
+        <div class="panel-body"><img src="pizza.png" class="img-responsive" style="width:100%" alt="pizza.png"></div>
+        <div class="panel-footer"><center>13€</center></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading"><center>Lasagne à la Bolognaise</center></div>
+        <div class="panel-body"><img src="lasagne.png" class="img-responsive" style="width:100%" alt="lasagne.png"></div>
+        <div class="panel-footer"><center>17,20€</center></div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading"><center>Escalope Milanaise</center></div>
+        <div class="panel-body"><img src="escalope.png" class="img-responsive" style="width:100%" alt="escalope.png"></div>
+        <div class="panel-footer"><center>21€</center></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading"><center>Tiramisu</center></div>
+        <div class="panel-body"><img src="tiramisu.png" class="img-responsive" style="width:100%" alt="tiramusi.png"></div>
+        <div class="panel-footer"><center>9€</center></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading"><center>Panna Cotta</center></div>
+        <div class="panel-body"><img src="cotta.png" class="img-responsive" style="width:100%" alt="cotta.png"></div>
+        <div class="panel-footer"><center>7,90€</center></div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center"
+<p> Mentions Légales </p>
+  <form class="form-inline"> Recevoir les News :
+    <input type="email" class="form-control" size="50" placeholder="Adresse email">
+    <button type="button" class="btn btn-danger">Inscription</button>
+  </form>
+</footer>
+
+</body>
+</html>
+
